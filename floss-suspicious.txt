@@ -11,3 +11,4 @@ FindResource AND LoadResource AND SizeOfResource: Dropper
 LoadLibraryA OR LoadLibraryW AND GetProcAddress AND VirtualAlloc: Reflective DLL injection
 OpenThread AND SuspendThread AND SetThreadContext: Thread execution hijacking
 LoadLibraryA OR LoadLibraryW AND GetProcAddress AND SetWindowsHookExA OR SetWindowsHookExW: Hook Injection via SetWindowsHookEx
+OpenThread AND QueueUserAPC: APC Injection/Atombombing
