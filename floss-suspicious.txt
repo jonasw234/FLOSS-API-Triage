@@ -8,3 +8,4 @@ GetDC OR GetWindowDC AND CreateCompatibleDC AND CreateCompatibleBitmap AND Selec
 IsDebuggerPresent OR CheckRemoteDebuggerPresent OR OutputDebugStringA OR OutputDebugStringW: Antidebugging
 URLDownloadToFile AND WinExec OR ShellExecute: Downloader
 FindResource AND LoadResource AND SizeOfResource: Dropper
+LoadLibraryA OR LoadLibraryExA OR LoadLibraryW OR LoadLibraryExW AND GetProcAddress AND VirtualAlloc: Reflective DLL injection
