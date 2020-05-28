@@ -1,5 +1,7 @@
 FLOSS static ASCII strings
+WinExec
 Hundefutter
+URLDownloadToFile
 Process32Next
 belsalat
 GetLogicalDrives
@@ -8,8 +10,15 @@ Makrele
 sesp
 tzle
 Process32First
+GetDC
+CreateCompatibleBitmap
+SelectObject
+BitBlt
+WriteFile
+ShellExecute
 
 FLOSS static UTF-16 strings
 
-Found suspicious API combination: GetLogicalDrives
-Found suspicious API combination: CreateToolhelp32Snapshot AND Process32First AND Process32Next
+Found suspicious API combinations:
+- Process enumeration: CreateToolhelp32Snapshot, Process32First, Process32Next
+- Downloader: URLDownloadToFile, WinExec
