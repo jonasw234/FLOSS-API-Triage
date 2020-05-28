@@ -81,8 +81,10 @@ def find_suspicious_combinations(floss_output: str, suspicious_apis: dict) -> di
                     suspicious_combination.append(api)
                     break
             else:
+                # Found at least one of the OR clauses
                 break
         else:
+            # Found all of the AND clauses, note exact combination
             suspicious_combinations_found[description] = suspicious_combination
     return suspicious_combinations_found
 
