@@ -2,10 +2,11 @@ CreateToolhelp32Snapshot AND Process32First AND Process32Next: Process enumerati
 CreateProcess AND UnmapViewOfSection AND VirtualAllocEx AND WriteProcessMemory AND ResumeThread: Process Injection
 AllocateVirtualMemory AND WriteVirtualMemory AND ResumeProcess: Process Injection #2
 LoadLibrary AND GetProcAddress: Shellcode
-OpenProcess AND VirtualAllocEx AND WriteProcessMemory AND CreateRemoteThread: DLL Injection
+OpenProcess AND VirtualAllocEx AND WriteProcessMemory AND CreateRemoteThread: DLL/Shellcode Injection
 FindWindowA OR ShowWindow OR GetAsyncKeyState AND SetWindowsHookEx OR RegisterHotKey OR GetMessage OR UnhookWindowsHookEx: Keylogger
 GetDC OR GetWindowDC AND CreateCompatibleDC AND CreateCompatibleBitmap AND SelectObject AND BitBlt AND WriteFile: Screen capture
 IsDebuggerPresent OR CheckRemoteDebuggerPresent OR OutputDebugStringA OR OutputDebugStringW: Antidebugging
 URLDownloadToFile AND WinExec OR ShellExecute: Downloader
 FindResource AND LoadResource AND SizeOfResource: Dropper
 LoadLibraryA OR LoadLibraryExA OR LoadLibraryW OR LoadLibraryExW AND GetProcAddress AND VirtualAlloc: Reflective DLL injection
+OpenThread AND SuspendThread AND SetThreadContext: Thread execution hijacking
