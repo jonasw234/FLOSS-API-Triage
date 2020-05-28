@@ -14,3 +14,5 @@ SelectObject
 BitBlt
 WriteFile
 ShellExecute
+AllocateVirtualMemory
+WriteVirtualMemory

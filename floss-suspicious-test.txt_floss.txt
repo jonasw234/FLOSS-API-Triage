@@ -16,6 +16,8 @@ SelectObject
 BitBlt
 WriteFile
 ShellExecute
+AllocateVirtualMemory
+WriteVirtualMemory
 
 FLOSS static UTF-16 strings
 
