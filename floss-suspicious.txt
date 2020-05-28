@@ -14,3 +14,4 @@ LoadLibraryA OR LoadLibraryW AND GetProcAddress AND SetWindowsHookExA OR SetWind
 OpenThread AND QueueUserAPC: APC Injection/Atombombing
 FindWindowW AND GetWindowLongA AND CreateEventW AND SetWindowLongA AND SendNotifyMessageA: Extra Window Memory Injection
 QueueUserAPC AND NtTestAlert: Shellcode Execution in local process
+InitializeSecurityContext OR LsaCallAuthenticationPackage: Kerberoasting
