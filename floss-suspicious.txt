@@ -13,3 +13,4 @@ OpenThread AND SuspendThread AND SetThreadContext: Thread execution hijacking
 LoadLibraryA OR LoadLibraryW AND GetProcAddress AND SetWindowsHookExA OR SetWindowsHookExW: Hook Injection via SetWindowsHookEx
 OpenThread AND QueueUserAPC: APC Injection/Atombombing
 FindWindowW AND GetWindowLongA AND CreateEventW AND SetWindowLongA AND SendNotifyMessageA: Extra Window Memory Injection
+QueueUserAPC AND NtTestAlert: Shellcode Execution in local process
