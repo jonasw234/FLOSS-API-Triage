@@ -1,0 +1,8 @@
+Hundefutter
+Process32Next
+Grübelsalat
+GetLogicalDrives
+CreateToolhelp32Snapshot
+Makrele
+Käsespätzle
+Process32First

@@ -1,0 +1,15 @@
+FLOSS static ASCII strings
+Hundefutter
+Process32Next
+belsalat
+GetLogicalDrives
+CreateToolhelp32Snapshot
+Makrele
+sesp
+tzle
+Process32First
+
+FLOSS static UTF-16 strings
+
+Found suspicious API combination: GetLogicalDrives
+Found suspicious API combination: CreateToolhelp32Snapshot AND Process32First AND Process32Next

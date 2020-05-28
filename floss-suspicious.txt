@@ -1,0 +1,15 @@
+VirtualAlloc
+GetLogicalDrives
+RtlDecompressBuffer
+NtAllocateVirtualMemory
+NtResumeProcess
+SetWindowsHookEx
+FindWindow
+CreateToolhelp32Snapshot AND Process32First AND Process32Next
+CreateProcess AND UnmapViewOfSection AND VirtualAllocEx AND WriteProcessMemory AND ResumeThread
+AllocateVirtualMemory AND WriteVirtualMemory AND ResumeProcess
+LoadLibrary AND GetProcAddress
+BlockInput
+GetModuleHandle
+ProtectVirtualMemory
+FromBase64String
