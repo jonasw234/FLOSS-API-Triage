@@ -23,10 +23,10 @@ Custom APIs or API combinations can be added to the file `floss-suspicious.txt`.
 Of course you can also add other suspicious string combinations, this is not
 restricted to API calls, although that was my original intended purpose.
 
-References:
-https://posts.specterops.io/detection-spectrum-198a0bfb9302
-https://github.com/xme/fame_modules/tree/master/processing/floss_str
-https://ired.team/offensive-security/code-injection-process-injection/shellcode-execution-in-a-local-process-with-queueuserapc-and-nttestalert
-https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process
-https://ired.team/offensive-security/code-injection-process-injection/reflective-dll-injection
+References:  
+https://posts.specterops.io/detection-spectrum-198a0bfb9302  
+https://github.com/xme/fame_modules/tree/master/processing/floss_str  
+https://ired.team/offensive-security/code-injection-process-injection/shellcode-execution-in-a-local-process-with-queueuserapc-and-nttestalert  
+https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process  
+https://ired.team/offensive-security/code-injection-process-injection/reflective-dll-injection  
 https://www-users.math.umn.edu/~math-sa-sara0050/space16/slides/space2016121708-06.pdf
