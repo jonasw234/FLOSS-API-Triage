@@ -1,27 +1,29 @@
 # Floss API Triage
 
-Schnellanalyse von verdächtigen APIs/API-Kombinationen für Malwareanalyse mit
+Quickly analyze malware API combinations with 
 [FLOSS](https://github.com/fireeye/flare-floss).
 
-FLOSS sucht im Gegensatz zu strings auch nach obfuskierten Strings in
-Binärdateien (z. B. Stackstrings) und ist damit besser für die schnelle
-Malwareanalyse geeignet.
+Differently from `strings` `FLOSS` also searches for obfuscated string in
+binary files (e.g. stack strings), which makes it better suited for quick
+malware triage.
 
-Die Idee hinter diesem Projekt ist es, dass viele Angriffstechniken mehrere
-APIs in Kombination benötigen, um zu funktionieren (z. B. LoadLibrary und
-GetProcAddress, um dynamisch Funktionen nachzuladen). Dadurch kann die Anzahl
-der relevanten Treffer erhöht und die Anzahl der irrelevanten Treffer verringert
-werden.
+The idea behind this project is that many attack patterns use a combination of
+API calls to work (e.g. LoadLibraryA and GetProcAddress is a combination often
+used in shellcode).  By combining APIs the likelihood for false positives
+decreases and the number of true positives increases.
 
-Die Datei `floss-suspicious-test.txt` enthält dabei einige beispielhafte
-Strings, die in der Kombination verdächtig sind und in
-`floss-suspicious-test.txt_floss.txt` liegt das Ergebnis des Aufrufs von
-`floss-suspicious.py floss-suspicious-test.txt`.
+As a small example, the file `floss-suspicious-test.txt` contains a few strings
+that form suspicious combinations (and one that is missing a single API to form
+a suspicious combination) and the results of running
+`floss-suspicious.py floss-suspicious-test.txt` are stored in 
+`floss-suspicious-test.txt_floss.txt`.
 
-Eigene APIs/API-Kombinationen können in der Datei `floss-suspicious.txt`
-hinterlegt werden. Erweiterungen und eigene Vorschläge sind gerne gesehen!
+Custom APIs or API combinations can be added to the file `floss-suspicious.txt`.
 
-Referenzen:
+Of course you can also add other suspicious string combinations, this is not
+restricted to API calls, although that was my original intended purpose.
+
+References:
 https://posts.specterops.io/detection-spectrum-198a0bfb9302
 https://github.com/xme/fame_modules/tree/master/processing/floss_str
 https://ired.team/offensive-security/code-injection-process-injection/shellcode-execution-in-a-local-process-with-queueuserapc-and-nttestalert

@@ -2,6 +2,7 @@
 """
 Runs FLOSS to extract (even some obfuscated) strings from a binary and correlates them to a list of suspicious API
 calls/combinations
+(Of course you can also use other combinations of strings that make a binary file suspicious.)
 
 Usage: floss-suspicious.py -f FILENAME [-s SUSPICIOUS]
 
