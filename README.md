@@ -23,6 +23,8 @@ Custom APIs or API combinations can be added to the file `floss-suspicious.txt`.
 Of course you can also add other suspicious string combinations, this is not
 restricted to API calls, although that was my original intended purpose.
 
+Installation is done with [Pipenv](https://pipenv.pypa.io/en/latest/)
+
 References:  
 https://posts.specterops.io/detection-spectrum-198a0bfb9302  
 https://github.com/xme/fame_modules/tree/master/processing/floss_str  
