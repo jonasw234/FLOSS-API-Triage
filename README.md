@@ -20,6 +20,10 @@ a suspicious combination) and the results of running
 
 Custom APIs or API combinations can be added to the file `floss-suspicious.txt`.
 
+Please note that the operator precendence might be different from what you’re
+used to: OR binds stronger than AND.  This design decision makes writing rules
+a bit easier I think, but it could be confusing for new users.
+
 Of course you can also add other suspicious string combinations, this is not
 restricted to API calls, although that was my original intended purpose.
 
