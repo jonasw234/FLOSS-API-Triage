@@ -16,3 +16,4 @@ FindWindowW AND GetWindowLongA AND CreateEventW AND SetWindowLongA AND SendNotif
 QueueUserAPC AND NtTestAlert: Shellcode Execution in local process
 InitializeSecurityContext OR LsaCallAuthenticationPackage: Kerberoasting
 VirtualAlloc AND CreateThread: Process hollowing
+NtMapViewOfSection AND NtQueueApcThread: Process hollowing #2
