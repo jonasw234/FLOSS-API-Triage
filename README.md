@@ -36,6 +36,7 @@ https://ired.team/offensive-security/code-injection-process-injection/shellcode-
 https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process  
 https://ired.team/offensive-security/code-injection-process-injection/reflective-dll-injection  
 https://www-users.math.umn.edu/~math-sa-sara0050/space16/slides/space2016121708-06.pdf
+https://shellz.club/bypassing-crowdstrike-endpoint-detection-and-response/
 
 TODO:  
 ⬚ Use FLOSS python mappings instead  
