@@ -95,7 +95,9 @@ def main():
     # Parse command line arguments
     args = docopt(__doc__)
     schema = Schema({'--filename': os.path.exists,
-        Optional('--suspicious'): os.path.exists})
+        Optional('--suspicious',
+            default=os.path.join(os.path.realpath(__file__),
+                'floss-suspicious.txt')): os.path.exists})
     try:
         args = schema.validate(args)
     except SchemaError as error:
