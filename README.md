@@ -41,3 +41,6 @@ https://shellz.club/bypassing-crowdstrike-endpoint-detection-and-response/
 TODO:  
 ⬚ Use FLOSS python mappings instead  
 ⬚ Create a YARA extension to decode stack strings/deobfuscate strings and use that instead
+
+## Related projects
+[capa](https://www.fireeye.com/blog/threat-research/2020/07/capa-automatically-identify-malware-capabilities.html) ([Github](https://github.com/fireeye/capa/))
